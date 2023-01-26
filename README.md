@@ -75,6 +75,78 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # don't hide with error - in tensorflow
 ```
 This part actually functions as a function that allows us to hide the lines in the terminal of the program, that is, in the output part. The reason why I use it here is that it takes part in modeling to hide those parts. If you run the code, the difference will be seen in the terminal.
 
+```python
+
+dataset_dir = constant.dataset_dir
+os.chdir(dataset_dir)
+path =os.getcwd()
+print(os.listdir())
+
+
+test_set_dir = constant.dataset_dir
+os.chdir(test_set_dir)
+path =os.getcwd()
+print(os.listdir())
+
+training_set_dir = constant.dataset_dir
+os.chdir(training_set_dir)
+path =os.getcwd()
+print(os.listdir())
+
+
+for dataset in glob.glob("*.jpg"):
+    print(dataset)
+
+```
+Here, I put examples from different libraries to read our data in the dataset according to its extension. These parts are labeled as comments in the main theme code as a comment line.
+The code in the last line has output this data. You can easily try this by implamenting the libraries as external code with the dataset that you will load virtual via collab.
+
+
+```python
+
+
+train_datagen = ImageDataGenerator(rescale=1./255, shear_range=0.4, zoom_range=0.4, horizontal_flip = True)
+train_set = train_datagen.flow_from_directory('dataset/training_set', target_size= (64, 64), batch_size=64, class_mode='binary')
+#os.getcwd
+#test_datagen.flow_from_directory
+test_datagen = ImageDataGenerator(rescale=1./255)
+test_set = test_datagen.flow_from_directory('dataset/test_set', target_size= (64, 64), batch_size=64, class_mode='binary')
+#os.getcwd
+#test_datagen.flow_from_directory
+cnn = tf.keras.models.Sequential()
+cnn.add(tf.keras.layers.Conv2D(filters=32, kernel_size=3, activation='relu', input_shape=[64, 64, 3]))
+cnn.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+cnn.add(tf.keras.layers.Conv2D(filters=32, kernel_size=3, activation='relu'))
+cnn.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2))
+cnn.add(tf.keras.layers.Flatten())
+cnn.add(tf.keras.layers.Dense(units=128, activation='relu'))
+cnn.add(tf.keras.layers.Dense(units=1, activation='sigmoid'))
+
+
+```
+
+This part is the most critical part for our training modeling. Here, our training model is the part where the CNN neural network layer, where accuracy and stability are realized. After the input part of the image that is put as a reference at the top, it actually explains this part.
+Here, you will see the change in accuracy by making changes on situations such as btach_size, range, batch_size. Of course, the duration of the modeling will also change.
+If this part was done via Collab over the virtual GPU instead of locally, you would still be able to see the changes in the same way by changing them.
+
+
+```python
+
+def train_cnn():
+    start = timer()
+    cnn.compile(optimizer='adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
+    cnn.fit(x = train_set, validation_data = test_set, epochs=5)
+    print("Total Time Consumed for 5 epochs -->", timer()-start,"second")
+
+train_cnn()                                                       # Modeling type of my answer that will come out as a result of deep learning!
+
+# model is training feature in cnn model because calls type two and trainining nothin train_set happend--> 56 and 37 line
+# i dont use with two class but added in -dir with path
+
+```
+This part is now the output part of our test and training model, where we will get our result after the calculations over the CNN layer are finished in our code. Of course, the closer cnn_training is to 1, the better the accuracy of our dataset will be.
+
+
 # 6. Code
 
 In the code part, we first need to install the libraries that need to be installed through the IDE we will use. Since I will not cover this situation in this article, I am passing it here.
@@ -170,3 +242,10 @@ The first part is that there are different libraries for you to read the data in
 # 8. About me 
 
 (https://www.linkedin.com/in/sefasayraci/" My Linkedin Page")
+
+(https://linktr.ee/sefasayraci/" My Linktree Page")
+
+# 9. References
+
+
+
