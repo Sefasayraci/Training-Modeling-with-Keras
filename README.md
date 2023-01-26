@@ -46,3 +46,13 @@ Here is Keras's working logic image:
 Let's briefly interpret this image. Here are our entries. After these inputs, CNN-based convolutional neural networks pass through the layers and form a hidden multi-layered neural network. Our dataset is passed over this. The class here is implemented in the equivalent of weights.
 
 4. Project Stages and Details
+
+You can write the project using any IDE, of course, it should be Python extension. Here we can give any training modeling example after setting up local systems. I will give it in the supplementary file for example here. It saves you time. This dataset consists of cat and dog classes.
+
+Before running this modeling, keep the epoch low for the experiment, and after the modeling is finished, it will appear to be modeled on CPU or GPU.
+
+// This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX AVX2
+ For Example:
+ ![image](https://user-images.githubusercontent.com/73780930/214935176-69cc74ba-8c89-4e38-8974-07b2a8e5a905.png)
+
+
