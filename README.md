@@ -16,7 +16,7 @@ I am sharing it as an additional file both in the code part and in the last part
 
 *Training Dataset, moon and sun:*
 
-<img src="https://user-images.githubusercontent.com/73780930/214930160-ff28f7be-edcc-4ef6-98db-10577a9e2e2c.jpg" alt="alt yazı" width="280"><img src="https://user-images.githubusercontent.com/73780930/214930218-74817367-b4fa-4962-b623-3bbd99967df9.jpg" alt="alt yazı" width="650">
+<img src="https://user-images.githubusercontent.com/73780930/214930160-ff28f7be-edcc-4ef6-98db-10577a9e2e2c.jpg" alt="alt yazı" width="250"><img src="https://user-images.githubusercontent.com/73780930/214930218-74817367-b4fa-4962-b623-3bbd99967df9.jpg" alt="alt yazı" width="620">
 
 
 
