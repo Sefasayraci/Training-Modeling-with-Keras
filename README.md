@@ -16,13 +16,13 @@ I am sharing it as an additional file both in the code part and in the last part
 
 *Training Dataset, moon and sun:*
 
-<img src="https://user-images.githubusercontent.com/73780930/214930160-ff28f7be-edcc-4ef6-98db-10577a9e2e2c.jpg" alt="alt yazı" width="250"><img src="https://user-images.githubusercontent.com/73780930/214930218-74817367-b4fa-4962-b623-3bbd99967df9.jpg" alt="alt yazı" width="620">
+<img src="https://user-images.githubusercontent.com/73780930/214930160-ff28f7be-edcc-4ef6-98db-10577a9e2e2c.jpg" alt="alt yazı" width="300"> <img src="https://user-images.githubusercontent.com/73780930/214930218-74817367-b4fa-4962-b623-3bbd99967df9.jpg" alt="alt yazı" width="670">
 
 
 
 *Test Dataset, moon and sun:*
 
-<img src="https://user-images.githubusercontent.com/73780930/214929997-bc5c6aaf-13bf-4220-bca2-1c2642aea0b9.jpg" alt="alt yazı" width="300"><img src="https://user-images.githubusercontent.com/73780930/214930036-daedcc6e-52f5-4e6f-b5f1-3a2a13ddee69.jpg" alt="alt yazı" width="530">
+<img src="https://user-images.githubusercontent.com/73780930/214929997-bc5c6aaf-13bf-4220-bca2-1c2642aea0b9.jpg" alt="alt yazı" width="320"> <img src="https://user-images.githubusercontent.com/73780930/214930036-daedcc6e-52f5-4e6f-b5f1-3a2a13ddee69.jpg" alt="alt yazı" width="550">
 
  # 2. Why local system?
 
