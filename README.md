@@ -272,8 +272,11 @@ Epoch 4/5
 # 7. Sources:
 
 **As I mentioned above, since I cannot share the dataset I have, I am sharing the tried-and-tested dataset on the articles:**
+
 [cats.zip](https://github.com/Sefasayraci/Training-Modeling-with-Keras/files/10514427/cats.zip)
-[Uploading dogs.zip…]()
+
+[dogs.zip](https://github.com/Sefasayraci/Training-Modeling-with-Keras/files/10514518/dogs.zip)
+
 
 
 # 8. About me 
