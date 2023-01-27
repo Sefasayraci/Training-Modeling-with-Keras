@@ -234,9 +234,46 @@ Respectively:
 The first part is that there are different libraries for you to read the data in your dataset. This is personal, and as a result of my research, it was your reason for choosing it. As a result of my other functional trials, I also got results with other methods. In fact, this situation allows us to insert data into the modeling. In others, it is the part I tried because I was curious about the epoch average.
 
 
+*Detection of classes at the beginning of modeling and a few dataset data that I gave for fast time as an example:*
+
+![image](https://user-images.githubusercontent.com/73780930/214977905-4311cdd4-e295-4e06-8e58-35d33c3f8b7a.png)
+
+
+
+`
+Epoch 1/5
+1/1 [==============================] - 4s 4s/step - loss: 0.7023 - accuracy: 0.4286 - val_loss: 0.6128 - val_accuracy: 0.4286
+Epoch 2/5
+1/1 [==============================] - 2s 2s/step - loss: 0.5798 - accuracy: 0.6429 - val_loss: 0.5398 - val_accuracy: 0.5714
+Epoch 3/5
+1/1 [==============================] - 2s 2s/step - loss: 0.4846 - accuracy: 0.7143 - val_loss: 0.4209 - val_accuracy: 0.7143
+Epoch 4/5
+1/1 [==============================] - 2s 2s/step - loss: 0.3370 - accuracy: 0.9286 - val_loss: 0.3336 - val_accuracy: 0.8571
+`
+
+
+*Time Taken for Modeling:*
+
+![image](https://user-images.githubusercontent.com/73780930/214978348-b84c6af4-9d40-4be1-9796-96f01ce6e408.png)
+
+---> In addition, the modeling time is specified in seconds.
+
+
+
+*Modeling moment image:*
+
+![image](https://user-images.githubusercontent.com/73780930/214977941-b89ab07b-ba2a-4750-b05f-f481972d67fa.png)
+
+---> In the case of training, we observe that our training and test values increase and the loss decreases.
+
+
+
+
 # 7. Sources:
 
-
+**As I mentioned above, since I cannot share the dataset I have, I am sharing the tried-and-tested dataset on the articles:**
+[cats.zip](https://github.com/Sefasayraci/Training-Modeling-with-Keras/files/10514427/cats.zip)
+[Uploading dogs.zip…]()
 
 
 # 8. About me 
@@ -247,5 +284,19 @@ The first part is that there are different libraries for you to read the data in
 
 # 9. References
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+![kod-yazın-yazılım-yapın](https://user-images.githubusercontent.com/73780930/214976712-6ea36b46-e3df-4aff-939f-e9e2abb9f00f.gif)
 
 
