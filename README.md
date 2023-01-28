@@ -287,6 +287,12 @@ Epoch 4/5
 
 # 9. References
 
+(https://www.linkedin.com/in/sefasayraci/" My Linkedin Page")
+
+(https://linktr.ee/sefasayraci/" My Linktree Page")
+
+
+
 
 
 
